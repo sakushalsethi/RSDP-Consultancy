@@ -1,0 +1,32 @@
+.dash{
+  width:50%;
+  margin-top:90px;
+float: right;
+opacity: 1.0;
+}
+
+.dash a{
+  text-decoration:none;
+  color: white;
+
+  border-radius:30px;
+  font-size:165%;
+  margin: 10px;
+float: left;
+
+
+}
+.adminpic{
+  width: 50%;
+  float: left;
+padding: 150px;
+text-align: center;
+}
+.dash a:hover{
+  opacity: 0.8;
+
+}
+h1 {
+  text-shadow: 1px 1px 2px #d2a679;
+  font-size: 1.8em;
+}

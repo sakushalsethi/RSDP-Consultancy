@@ -1,0 +1,45 @@
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+
+  background-color: #F6E8B1;
+  color: black;
+  width: 400px;
+  line-height: 50px;
+  text-align: center;
+  margin: 4px;
+  display: none;
+}
+
+
+.show {
+  display: inline-block;
+}
+
+
+.btn {
+  border: black 1.5px solid;
+
+  padding: 20px;
+  background-color: #FDA50F;
+  cursor: pointer;
+  color: black;
+}
+
+
+.btn:hover {
+  background-color: #F6E8B1;
+}
+
+
+
+.btn.active {
+  background-color: #FDA50F;
+  color: black;
+}
+
+.btn.active:hover {
+  background-color: #F6E8B1;
+}

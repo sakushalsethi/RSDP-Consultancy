@@ -1,0 +1,84 @@
+.subscribe{
+background-color:#9da1a8;
+}
+
+p{
+	text-shadow: 1px 1px 2px #d2a679;
+	margin-top:100px;
+	margin-bottom:100px;
+	text-align:center;
+  display: block;
+  font-size: 1.8em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+	text-align:center;
+   color: black;
+  font-family: courier;
+  font-size: 160%;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+
+button {
+	
+  background-color: #1aa3ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+}

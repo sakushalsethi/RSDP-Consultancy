@@ -1,0 +1,58 @@
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 16px;
+  float: left;
+}
+.links{
+
+width: 88%;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: White;
+  display: block;
+  background-color: #1aa3ff;
+  margin:3px;
+  border-radius: 15px;
+}
+
+
+.sidebar a:hover{
+  color: #b3b3ff;
+}
+
+
+.main {
+  margin-left: 0;
+  padding: 0px 10px;
+}
+.links {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.adminpage{
+margin-left: 160px;
+}
+.adminpage img{
+  float: right;
+  margin-right: 10%;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
